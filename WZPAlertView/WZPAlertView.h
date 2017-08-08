@@ -18,6 +18,7 @@
 @property (strong, nonatomic) NSString *message1;
 @property (strong, nonatomic) NSString *message2;
 
+//取消 | 确定按钮回调
 @property (weak, nonatomic) id<WZPAlertViewDelegate> delegate;
 
 - (instancetype)initWithTitle:(NSString *)title icon:(UIImage *)icon message1:(NSString *)message1 message2:(NSString *)message2 delegate:(id<WZPAlertViewDelegate>)delegate;
